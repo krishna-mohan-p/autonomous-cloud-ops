@@ -2,7 +2,7 @@
 
 **Offline-first .NET 10 portfolio project for cloud observability, incident response, AI-ready diagnostics and human-governed recovery planning.**
 
-[![.NET CI](https://github.com/alwayskrishna/autonomous-cloud-ops/actions/workflows/ci.yml/badge.svg)](https://github.com/alwayskrishna/autonomous-cloud-ops/actions/workflows/ci.yml)
+[![.NET CI](https://github.com/krishna-mohan-p/autonomous-cloud-ops/actions/workflows/ci.yml/badge.svg)](https://github.com/krishna-mohan-p/autonomous-cloud-ops/actions/workflows/ci.yml)
 
 This project demonstrates C#/.NET backend engineering, distributed-systems concepts, operational observability, incident lifecycle management, and safety-first automation. The primary experience runs locally with mock providers; **no Azure subscription or paid cloud services are required**.
 
