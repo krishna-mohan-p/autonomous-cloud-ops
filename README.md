@@ -6,6 +6,17 @@
 
 This project demonstrates C#/.NET backend engineering, distributed-systems concepts, operational observability, incident lifecycle management, and safety-first automation. The primary experience runs locally with mock providers; **no Azure subscription or paid cloud services are required**.
 
+## Hiring-manager quick tour
+
+This repository is a **local/offline portfolio demonstration**, not a deployed self-healing cloud service. To evaluate the engineering design, start with:
+
+1. [Architecture](docs/architecture.md) for component boundaries and tradeoffs.
+2. [Guided demo](docs/demo.md) for simulated telemetry, incident correlation, and dry-run recovery.
+3. [Runbooks](docs/runbooks.md) for operational decision-making.
+4. [Security and tenant limitations](docs/tenant-security.md) for what is and isn't protected in the prototype.
+
+**Run and test quickly** using the .NET SDK commands below. No subscription is required, and recovery actions never change infrastructure.
+
 ## Quick start
 
 Requires the .NET 10 SDK.
