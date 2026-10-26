@@ -29,7 +29,7 @@ jobs:
       - name: Build local-only container image
         run: docker build --tag autonomous-cloud-ops:ci .
       - name: Validate Bicep template syntax
-        uses: azure/cli@v2
+        uses: azure/cli@v3
         with:
           inlineScript: az bicep build --file infra/main.bicep
       - name: Build offline load benchmark
